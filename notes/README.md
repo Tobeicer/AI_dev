@@ -15,16 +15,17 @@ Plugins:
 7.Prompt Optimizer: 提示词优化工具，帮助用户生成更符合需求的提示词，提高模型的响应质量。(6)
 8.ECC AI:大模型强化工作流，给AI工具装一套专业的开发工作流(内置18个skill，47个代理，79个指令)。
 9.zvec:向量数据库，用于 RAG 存储和检索向量数据，如图片、文本等，支持向量检索和相似度计算。
+10.playwright:端到端浏览器自动化测试，用于测试和验证Web应用的交互和功能。(6)
 
 
 Skill:
-1.Superpowers:skill合集，包含brainstorming和TDD等。(10)
-2.Planning with Files:把规划写进文件，上下文压缩了也不丢状态。(10)
-3.Code Review:多Agent并行审查代码，确保代码质量和一致性。(9)
-4.anthropical skills:Anthropic官方Skills库，涵盖代码、写作、分析等领域。(9)
+1.Superpowers:skill合集，包含brainstorming和test-driven-development等。(10)******
+2.brainstorming:引导式头脑风暴，将想法转化为设计文档和规格说明。(10)
+3.Planning with Files:把规划写进文件，上下文压缩了也不丢状态。(10)
+4.Code Review:多Agent并行审查代码，确保代码质量和一致性。(9)
 5.markitdown:把文档转换为markdown格式。(9)
 6.ui-ux-pro-max:67种风格+161套配色，解决AI审美问题。(8.5)
-7.Ralph Loop:自循环迭代改进，让AI不断自我审查和优化输出。(8.5)
+7.test-driven-development:测试驱动开发，先写测试再写代码，红-绿-重构循环。(8.5)
 8.MCP Builder:快速构建MCP服务器，低代码定义工具接口。(8.5)
 9.context engineering:上下文工程学，结构化压缩以最大化模型理解力。(8)
 10.also agent skills:Agent能力扩展包，增强自主规划与多步推理。(7.5)

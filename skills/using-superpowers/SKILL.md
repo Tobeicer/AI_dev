@@ -1,11 +1,7 @@
 ---
-name: "using-superpowers"
-description: "Establishes how to find and use skills. Invoke when starting any conversation or task — checks for relevant skills BEFORE any response, including clarifying questions."
+name: using-superpowers
+description: Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions
 ---
-
-# Using Superpowers
-
-Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions.
 
 <SUBAGENT-STOP>
 If you were dispatched as a subagent to execute a specific task, skip this skill.
@@ -31,30 +27,27 @@ If CLAUDE.md, GEMINI.md, or AGENTS.md says "don't use TDD" and a skill says "alw
 
 ## How to Access Skills
 
-**In Trae IDE:** Use the `Skill` tool. When you invoke a skill, its content is loaded and presented to you—follow it directly. Never use the Read tool on skill files.
+**Never read skill files manually with file tools** — always use your platform's skill-loading mechanism so the skill is properly activated.
 
-```python
-Skill(name="<skill-name>")
-```
+**In Claude Code:** Use the `Skill` tool. When you invoke a skill, its content is loaded and presented to you — follow it directly.
 
-## Using Skills
+**In Codex:** Skills load natively. Follow the instructions presented when a skill activates.
 
-### The Rule
+**In Copilot CLI:** Use the `skill` tool. Skills are auto-discovered from installed plugins.
+
+**In Gemini CLI:** Skills activate via the `activate_skill` tool. Gemini loads skill metadata at session start and activates the full content on demand.
+
+**In other environments:** Check your platform's documentation for how skills are loaded.
+
+## Platform Adaptation
+
+Skills speak in actions ("dispatch a subagent", "create a todo", "read a file") rather than naming any one runtime's tools. For per-platform tool equivalents and instructions-file conventions, see [claude-code-tools.md](references/claude-code-tools.md), [codex-tools.md](references/codex-tools.md), [copilot-tools.md](references/copilot-tools.md), [gemini-tools.md](references/gemini-tools.md), [pi-tools.md](references/pi-tools.md), and [antigravity-tools.md](references/antigravity-tools.md). Gemini CLI users get the tool mapping loaded automatically via GEMINI.md.
+
+# Using Skills
+
+## The Rule
 
 **Invoke relevant or requested skills BEFORE any response or action.** Even a 1% chance a skill might apply means that you should invoke the skill to check. If an invoked skill turns out to be wrong for the situation, you don't need to use it.
-
-**Flow:**
-
-1. Receive user message
-2. **Might any skill apply?** — If yes (even 1%), invoke the `Skill` tool
-3. **Announce skill use:** Say "Using [skill] to [purpose]"
-4. **Has checklist?** — If the skill has a checklist, create a TodoWrite todo per item
-5. **Follow skill exactly** — Follow the skill's instructions precisely
-6. **Respond** — Only after skill check is complete (including clarifications)
-
-### About to Enter Plan Mode?
-
-Before entering Plan Mode, ask: "Already brainstormed?" If not, invoke the brainstorming skill first.
 
 ## Red Flags
 
@@ -79,15 +72,15 @@ These thoughts mean STOP—you're rationalizing:
 
 When multiple skills could apply, use this order:
 
-1. **Process skills first** (brainstorming, debugging) - these determine HOW to approach the task
+1. **Process skills first** (brainstorming, systematic-debugging) - these determine HOW to approach the task
 2. **Implementation skills second** (frontend-design, mcp-builder) - these guide execution
 
 "Let's build X" → brainstorming first, then implementation skills.
-"Fix this bug" → debugging first, then domain-specific skills.
+"Fix this bug" → systematic-debugging first, then domain-specific skills.
 
 ## Skill Types
 
-**Rigid** (TDD, debugging): Follow exactly. Don't adapt away discipline.
+**Rigid** (TDD, systematic-debugging): Follow exactly. Don't adapt away discipline.
 
 **Flexible** (patterns): Adapt principles to context.
 
