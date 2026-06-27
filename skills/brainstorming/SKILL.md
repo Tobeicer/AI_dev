@@ -5,6 +5,19 @@ description: "You MUST use this before any creative work - creating features, bu
 
 # Brainstorming Ideas Into Designs
 
+> **语言规则 (Language Rules)**
+>
+> 本 skill 中所有面向用户的输出（用户可见文档）必须使用**中文（简体）**：
+> - 设计文档（design doc / spec）→ **中文**
+> - 与用户确认的提问、选项、说明 → **中文**
+> - 阶段性汇报、总结 → **中文**
+>
+> 仅以下场景可使用英文：
+> - 内部推理、技术术语、代码示例、文件路径
+> - 引用第三方文档原文
+>
+> **关键判断标准**：如果用户需要阅读并确认 → 中文；如果仅供 AI 自己处理 → 保留英文。
+
 Help turn ideas into fully formed designs and specs through natural collaborative dialogue.
 
 Start by understanding the current project context, then ask questions one at a time to refine the idea. Once you understand what you're building, present the design and get user approval.

@@ -5,6 +5,21 @@ description: Work like Manus — use persistent markdown files as your working m
 
 # Planning with Files
 
+> **语言规则 (Language Rules)**
+>
+> 本 skill 涉及用户可见文档时必须使用**中文（简体）**：
+> - `task_plan.md` 中的目标、阶段、决策说明 → **中文**
+> - `findings.md` 中的研究发现、关键结论 → **中文**
+> - `progress.md` 中的进度汇报、错误日志说明 → **中文**
+> - 与用户确认的阶段汇报 → **中文**
+>
+> 仅以下场景可使用英文：
+> - 代码片段、命令、文件路径、技术术语
+> - 错误信息原文（保留 stderr/stdout 原始输出）
+> - git 提交信息
+>
+> **关键判断标准**：如果用户需要阅读并确认进度/规划 → 中文；如果仅供 AI 自己处理的临时记录 → 可保留英文。
+
 Work like Manus: Use persistent markdown files as your "working memory on disk."
 
 ## FIRST: Restore Context

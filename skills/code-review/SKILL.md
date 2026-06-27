@@ -4,6 +4,19 @@ description: Review code changes for security, performance, and correctness. Tri
 argument-hint: "<PR URL, diff, or file path>"
 ---
 # /code-review
+
+> **语言规则 (Language Rules)**
+>
+> 本 skill 输出的代码审查报告（用户阅读的部分）必须使用**中文（简体）**：
+> - 问题标题、问题描述、严重程度说明、修复建议 → **中文**
+> - 审查总结、风险评估、优先级建议 → **中文**
+>
+> 仅以下场景可使用英文：
+> - 代码片段、文件路径、行号、变量名、函数名
+> - 工具命令、CI 标识符、技术术语原文（如 SQL Injection、N+1、OWASP）
+>
+> **关键判断标准**：报告中的描述性文字、问题说明、建议 → 中文；技术标识符和代码 → 保留原文。
+
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 Review code changes with a structured lens on security, performance, correctness, and maintainability.
 ## Usage
