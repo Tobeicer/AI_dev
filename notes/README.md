@@ -59,7 +59,7 @@ Codex插件:
 14.Spreadsheets: 能生成带公式、格式、图表和分析结果的表格。  
 15.Windsor.ai:用于进行营销数据分析。  
 16.BioRender:创建专业的科学插图和图标。  
-
+17.product design:高级ui审美
 
 MCP:  
 1.brave-search-mcp-server:联网搜索，需要先有一个它的API key，每月2000次免费。  
