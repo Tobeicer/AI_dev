@@ -1,7 +1,6 @@
 用户与agent对话描述不清，只能提出大概得需求，从模糊需求到完整落地，ai全栈开发工程师需要明确所有详细的实现方案和需求框架，因此从想法到落地需要在每一轮开发中进行详细的沟通和确认。因此需要让agent在每一轮开发中，都详细描述实现方案和需求框架，确保用户和agent对需求的理解一致，并参考现有的项目案例和最佳实践。  
 
 
-
 Plugins:  
 1.ponytail:精简代码，提高维护，优先采用现成方案，拒绝重读造轮子。(8.5)  
 2.supervision:计算机视觉开发工具箱，从检测跟踪到可视化标注，一站式处理，无缝衔接YOLO。(8)  
@@ -40,26 +39,23 @@ Skill:
 21.amsp-skills:高德地图skill，提升地图功能和交互体验(含API)。(3)  
 
 
-
-
 Codex插件:  
 1.Computer Use: 操作本机App，如打开文件、发送邮件、打开浏览器等。(10)  
 2.GitHub: 操作GitHub仓库，如克隆仓库、提交代码、创建Pull Request等。(10)  
 3.Superpowers:把顶级工程能力拆成技能点，避免初步就盲目编写，先通过提问整理需求并梳理思路，给出分步实施方案。(10)  
-4.Presentations: 写PPT。(9)  
-5.Documents: 正式文档交付。(9)  
-6.Chrome:控制谷歌浏览器。(9)  
-7.Browser: 网页调试插件，支持在浏览器中调试代码，查看DOM元素、网络请求等。(8.5)  
-8.Remotion: 程序化视频，支持从图片序列创建视频。(8)  
-9.Canva:图形设计、海报制作、社交媒体素材生成。(8)  
-10.HyperFrames by HeyGen:自然语言打造动态页面效果。(7)  
-11.Build Web Apps: 快速开发网页。  
-12.Figma: 需求或代码转成figma设计稿，也能创建图表和设计系统。  
-13.Vercel: 部署网页到Vercel，支持自动部署和监控。  
-14.Spreadsheets: 能生成带公式、格式、图表和分析结果的表格。  
-15.Windsor.ai:用于进行营销数据分析。  
-16.BioRender:创建专业的科学插图和图标。  
-17.product design:高级ui审美
+4.Chrome:控制谷歌浏览器。(9)  
+5.Browser: 网页调试插件，支持在浏览器中调试代码，查看DOM元素、网络请求等。(8.5)  
+6.Remotion: 程序化视频，支持从图片序列创建视频。(8)  
+7.Canva:图形设计、海报制作、社交媒体素材生成。(8)  
+8.HyperFrames by HeyGen:自然语言打造动态页面效果。(7)  
+9.Build Web Apps: 快速开发网页。  
+10.Figma: 需求或代码转成figma设计稿，也能创建图表和设计系统。  
+11.Vercel: 部署网页到Vercel，支持自动部署和监控。  
+12.Spreadsheets: 能生成带公式、格式、图表和分析结果的表格。  
+13.Windsor.ai:用于进行营销数据分析。  
+14.BioRender:创建专业的科学插图和图标。  
+15.product design:高级ui审美
+
 
 MCP:  
 1.brave-search-mcp-server:联网搜索，需要先有一个它的API key，每月2000次免费。  
@@ -73,8 +69,6 @@ MCP:
 组件库:  
 1.Ant Design，前端react组件库，提供丰富的组件和样式。  
 2.https://lucide.dev/:提供丰富的图标组件。  
-
-
 
 
 框架：  
