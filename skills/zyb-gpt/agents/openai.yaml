@@ -1,7 +1,7 @@
 interface:
   display_name: "zyb-gpt"
-  short_description: "复杂既有项目的上下文对齐、开发与故障处理"
-  default_prompt: "Use $zyb-gpt to continue this complex existing project by aligning its requirements, code, documentation, and runtime state."
+  short_description: "复杂项目的需求收敛、工程判断、上下文对齐与实施协作"
+  default_prompt: "使用 $zyb-gpt 将这个复杂项目请求收敛为符合现状、可实施且可验证的结果。"
 
 policy:
   allow_implicit_invocation: true
