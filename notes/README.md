@@ -16,8 +16,8 @@ Plugins:
 
 
 Skill:  
-1.brainstorming:引导式头脑风暴，将想法转化为设计文档和规格说明。(10)  
-2.Planning with Files:把规划写进文件，上下文压缩了也不丢状态。(10)  
+1.brainstorming:引导式头脑风暴，将想法转化为设计文档和规格说明。(4)  
+2.Planning with Files:把规划写进文件，上下文压缩了也不丢状态。(4)  
 3.Code Review:多Agent并行审查代码，确保代码质量和一致性。(9)  
 4.markitdown:把文档转换为markdown格式（基于微软开源项目自封装，非官方SKILL.md）。(9)  
 5.ui-ux-pro-max:67种风格+161套配色，解决AI审美问题。(8.5)  
