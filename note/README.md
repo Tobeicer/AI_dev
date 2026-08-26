@@ -5,7 +5,7 @@ Skill:
 2. markitdown:把文档转换为markdown格式（基于微软开源项目自封装，非官方SKILL.md）。(9)
 3. ui-ux-pro-max:67种风格+161套配色，解决AI审美问题。(8.5)
 4. MCP Builder:快速构建MCP服务器，低代码定义工具接口。(8.5)
-5. zyb-gpt:在已有项目中对齐需求、文档、代码和运行状态，避免脱离项目脉络、重复实现与无关发散。(8.5)
+5. zyb-gpt:面向复杂既有项目，对齐需求、文档、代码和运行状态；简单 Git、文件及文档操作不触发。(8.5)
 6. context engineering:上下文工程学，结构化压缩以最大化模型理解力。(8.5)
 7. also agent skills:Agent能力扩展包，增强自主规划与多步推理。(7.5)
 8. compose your skills:Skills编排组合工具，将多个Skill串联为完整工作流。(7.5)
