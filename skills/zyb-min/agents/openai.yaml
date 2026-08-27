@@ -1,7 +1,7 @@
 interface:
   display_name: "zyb-min"
-  short_description: "选择最低充分实现，减少不必要抽象、依赖和重复代码"
-  default_prompt: "使用 $zyb-min 为这个编码任务选择最小、正确且可验证的实现。"
+  short_description: "优先利用现有文档、工具和实现，高效推进并避免重复造轮子"
+  default_prompt: "使用 $zyb-min 基于现有文档、工具和实现高效完成这个编码任务，并在确有必要时提出更优方案。"
 
 policy:
   allow_implicit_invocation: true
