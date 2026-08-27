@@ -10,7 +10,7 @@
 
 ```
 AI_dev/
-├── skills/           # AI Skill 集合（1个） → [zyb-gpt](./skills/zyb-gpt/SKILL.md)
+├── skills/           # AI Skill 集合（2个） → [zyb-gpt](./skills/zyb-gpt/SKILL.md)、[zyb-min](./skills/zyb-min/SKILL.md)
 └── note/             # 学习笔记 & 工具索引 → [索引](./note/README.md)
     ├── prompts/      #   提示词工程
     ├── best-practices/#   最佳实践
@@ -20,5 +20,5 @@ AI_dev/
 
 ## 快速导航
 
-- **找 Skill？** → [zyb-gpt](./skills/zyb-gpt/SKILL.md)（1 个，评分 8.5）
+- **找 Skill？** → [zyb-gpt](./skills/zyb-gpt/SKILL.md)、[zyb-min](./skills/zyb-min/SKILL.md)（2 个，评分均为 8.5）
 - **查工具/笔记？** → [note/README.md](./note/README.md)
